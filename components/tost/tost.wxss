@@ -1,0 +1,17 @@
+/* components/tost/tost.wxss */
+.main {
+  text-align: center;
+  padding-top: 150rpx;
+}
+.img-item {
+  margin: 0 auto;
+}
+.main  image {
+  height: 75rpx;
+  width: 75rpx;
+}
+.load {
+  font-size: 28rpx;
+  color: #888888;
+  margin-top: 80rpx;
+}

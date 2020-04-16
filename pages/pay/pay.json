@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "load-tost":"../../components/tost/tost"
+  }
+}

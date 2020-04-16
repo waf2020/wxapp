@@ -1,0 +1,12 @@
+/**index.wxss**/
+.imglist {
+  height: 307rpx;
+  width: 707rpx;
+  margin:30rpx 24rpx;
+}
+
+.imglist  image {
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+}

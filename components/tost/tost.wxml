@@ -1,0 +1,7 @@
+<view class="main">
+<view class="img-item">
+  <image src="../../utils/images/icon_loading.png"></image>
+</view>
+<view class="load">正在加载订单信息...</view>
+
+</view>

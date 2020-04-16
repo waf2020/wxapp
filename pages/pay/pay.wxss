@@ -1,0 +1,54 @@
+/* pages/pay/pay.wxss */
+.main {
+  padding-top: 58rpx;
+  font-size: 32rpx;
+  color: #000000;
+  text-align: center;
+  padding: 58rpx 18rpx 0rpx 18rpx;
+  font-family: PingFangSC-Regular;
+}
+
+.price {
+  font-size: 51rpx;
+  margin-top: 38rpx;
+}
+.price  text {
+  font-size: 30rpx;
+}
+.product{
+  
+  padding: 5rpx 18rpx;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  margin-top: 60rpx;
+  font-size: 32rpx;
+ 
+  
+}
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 30rpx 0;
+}
+.product-name {
+  color: #929292;
+  letter-spacing:2rpx;
+
+}
+
+.btn{
+  text-align: center;
+
+}
+.pay {
+  width: 400rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  background-color: #4e86fe;
+  border-radius: 40rpx;
+  margin: 0 auto;
+}
+.pay text {
+  color: white;
+}
+

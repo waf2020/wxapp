@@ -1,0 +1,9 @@
+<!--pages/detail/detail.wxml-->
+<view class="main">
+ <view class="imageitem">
+
+ <image src="{{list.url}}"></image>
+ </view>
+ <view class="title">{{list.titie}}</view>
+ <view class="content">{{list.conent}}</view>
+</view>

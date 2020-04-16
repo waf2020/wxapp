@@ -1,0 +1,28 @@
+<!--pages/pay/pay.wxml-->
+
+<load-tost wx:if="{{showloading}}"></load-tost>
+<view class="main">
+	<view>订单金额</view>
+	<view class="price">￥590.00</view>
+	<view class="product">
+
+		<view class="product-item">
+			<view class="product-name">产品名称</view>
+			<view class="product-text">北欧双层简约茶几</view>
+		</view>
+
+		<view class="product-item">
+			<view class="product-name">产品名称</view>
+			<view class="product-text">北欧双层简约茶几</view>
+		</view>
+	</view>
+</view>
+
+<view class="btn">
+	<view class="pay">
+		<text>继续支付</text>
+	</view>
+	<view class="backapp">
+		<button open-type="launchApp" app-parameter="wechat" binderror="launchAppError">返回商家</button>
+	</view>
+</view>

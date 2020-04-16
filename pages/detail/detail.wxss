@@ -1,0 +1,27 @@
+/* pages/detail/detail.wxss */
+.main{
+ padding: 20rpx 24rpx;
+}
+.imageitem{
+ width: 707rpx;
+ height: 307rpx;
+ margin-bottom: 30rpx;
+ 
+}
+.imageitem image {
+  width: 100%;
+  height: 100%;
+  border-radius: 18rpx;
+}
+.title {
+  color: #090909;
+  font-size: 30rpx;
+  font-weight:bold;
+  margin-bottom: 20rpx;
+}
+.content {
+  color: #888888;
+  font-size: 25rpx;
+  line-height: 30rpx;
+  letter-spacing:4rpx;
+}
