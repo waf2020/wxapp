@@ -1,15 +1,15 @@
 // pages/detail/detail.js
-import { getDetaileById } from '../../utils/api/pay'
+import {getDetaileById} from '../../utils/api/pay'
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    list: {
-      url: '../../utils/images/one.jpg',
-      titie: '假日酒店加入酒店',
-      conent: '宿适轻奢酒店(上海火车站店)位于地铁1号线汉中路站上盖，4号出口即是酒店，汇集地铁1号、12号、13号。'
+    list:{
+      url:'../../utils/images/one.jpg',
+      titie:'假日酒店加入酒店',
+      conent:'宿适轻奢酒店(上海火车站店)位于地铁1号线汉中路站上盖，4号出口即是酒店，汇集地铁1号、12号、13号。'
     }
   },
 
@@ -17,26 +17,26 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({
-      url: options.url
-    })
+  this.setData({
+    id:options.id
+  })
 
-    //发请求
-    // getDetaileById().then((res)=>{
-
-    // }).catch((error)=>{
-    //   wx.showToast({
-    //     title: '加载失败',
-    //     icon: 'none',
-    //     success(){
-    //       wx.navigateBack({
-    //         delta: 1
-    //       })
-    //     }
-
-    //   })
-
-    // })
+  //发请求
+  // getDetaileById().then((res)=>{
+    
+  // }).catch((error)=>{
+  //   wx.showToast({
+  //     title: '加载失败',
+  //     icon: 'none',
+  //     success(){
+  //       wx.navigateBack({
+  //         delta: 1
+  //       })
+  //     }
+      
+  //   })
+    
+  // })
 
   },
 

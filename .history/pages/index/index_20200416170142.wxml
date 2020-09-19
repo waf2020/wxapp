@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="">
+   <view class="imglist"  wx:for="{{images}}" bindtap="goDetail" data-id="{{item.id}}">
+   
+   <image src="{{item.url}}"></image>
+   
+   </view>
+</view>
